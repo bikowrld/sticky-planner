@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STICKY PLANNER</title>
+    <link rel="stylesheet" href="todolist.css">
+</head>
+<body>
+    <div class="main-div">
+        <div class="top-div">
+            <div class="logo">
+                <h2 id="el-1">STICKY</h2>
+                <h3 id="el-2">planner</h3>
+            </div>
+            <div class="inputbox">
+                <div class="input-box-1">
+                    <input type="text" id="tasks" placeholder="Add tasks..." required>
+                    <button class="add-task" onclick="addTasks();">ADD TASK</button>
+                </div>
+                <div class="previous-tasks-cont">
+                    <button id="previous-tasks">Completed Tasks</button>
+                </div>
+            </div>
+        </div>
+        <div  id="task-lists">
+        </div>
+        <div class="pop-up">
+        </div>
+    </div>
+   <script src="todolist.js"></script> 
+</body>
+</html>
+
